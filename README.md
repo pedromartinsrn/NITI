@@ -1,5 +1,5 @@
 # NITI: Non-custodial Interlinked Tokenization Infrastructure
-## A Mathematically Rigorous Protocol for Bitcoin-Backed Synthetic Assets
+## A Protocol for Bitcoin-Backed Synthetic Assets
 
 **Version 1.0**  
 **Publication Date:** July, 11 2025
