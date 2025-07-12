@@ -4,7 +4,7 @@
 **Version 1.0**  
 **Publication Date:** July, 11 2025
 **Author:** Pedro Martins Rodrigues Novaes. 
-**Contact:** contact@niti.finance
+**Contact:** nitidev@proton.me
 
 ---
 
