@@ -1,7 +1,7 @@
 # NITI: Non-custodial Interlinked Tokenization Infrastructure
 ## A Protocol for Bitcoin-Backed Synthetic Assets
 
-**Version 1.0**  
+**WHITEPAPER 0.5**  
 **Publication Date:** July, 11 2025
 **Author:** Pedro Martins Rodrigues Novaes. 
 **Contact:** nitidev@proton.me
