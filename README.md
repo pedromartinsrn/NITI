@@ -2,7 +2,7 @@
 ## A Mathematically Rigorous Protocol for Bitcoin-Backed Synthetic Assets
 
 **Version 1.0**  
-**Publication Date:** December 2024  
+**Publication Date:** July, 11 2025
 **Authors:** Dr. Caleb Isaac, Mathematical Review Board  
 **Contact:** contact@niti.finance
 
