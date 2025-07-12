@@ -594,32 +594,6 @@ Stress scenario s∈S with percentile ζ: collateral value V_c,s=V_c,0·(1+ΔP_s
 
 ---
 
-### Appendix E: Reference Implementation Snippets
-
-E.1 CDLC Key Derivation (Rust)
-```rust
-fn derive_adaptor_key(base: &SecretKey, idx: u32, chain: &[u8]) -> SecretKey {
-    let tag = b"NITI-CDLC-adaptor";
-    let mut info = Vec::new();
-    info.extend_from_slice(chain);
-    info.extend_from_slice(&idx.to_be_bytes());
-    hkdf_sha3(base, tag, &info)
-}
-```
-
-E.2 Oracle Aggregation (Go)
-```go
-func Aggregate(blsSigs []bls.Signature, weights []big.Int) (bls.Signature, error) {
-    agg := bls.NewAggregate()
-    for i, sig := range blsSigs {
-        agg.Add(sig, &weights[i])
-    }
-    return agg.Finalize()
-}
-```
-
----
-
 *For exhaustive proofs and raw data see the companion “Mathematical Supplement” repository.*
 
 ---
