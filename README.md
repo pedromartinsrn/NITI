@@ -3,7 +3,7 @@
 
 **Version 1.0**  
 **Publication Date:** July, 11 2025
-**Authors:** Dr. Caleb Isaac, Mathematical Review Board  
+**Author:** Pedro Martins Rodrigues Novaes. 
 **Contact:** contact@niti.finance
 
 ---
