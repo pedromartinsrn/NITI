@@ -599,4 +599,4 @@ Stress scenario s∈S with percentile ζ: collateral value V_c,s=V_c,0·(1+ΔP_s
 
 **Document Hash:** SHA3-256: `a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6`
 
-**License:** This work is licensed under Creative Commons Attribution 4.0 International License. 
+**License:** This work is licensed under GPL-3. 
