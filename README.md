@@ -26,16 +26,6 @@ The cryptocurrency ecosystem faces a fundamental tension between Bitcoin's super
 - **Algorithmic stablecoins**: Insufficient collateralization and complex failure modes
 - **DeFi protocols**: Smart contract risk and limited Bitcoin integration
 
-### 1.2 Contribution
-
-NITI addresses these limitations through:
-
-1. **Mathematically Proven Security**: Formal cryptographic proofs for all protocol components
-2. **Economic Equilibrium Analysis**: Rigorous modeling of market dynamics and stability conditions
-3. **Enhanced Risk Management**: Advanced portfolio theory and extreme value analysis
-4. **Decentralized Infrastructure**: Trustless matching and oracle aggregation
-5. **Extensible Framework**: Modular design supporting arbitrary synthetic assets
-
 ---
 
 ## 2. Theoretical Foundations
