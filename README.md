@@ -467,8 +467,7 @@ mm_reward = spread_capture + liquidity_mining_rewards + fee_rebates
 3. **Compliance**: Adherence to applicable regulations
 4. **Privacy**: Protection of user data
 
-**Regulatory Compliance:**
-- **KYC/AML**: Optional for large transactions
+**Compliance:**
 - **Securities Laws**: Synthetic assets may be securities
 - **Tax Reporting**: Automated tax calculation support
 - **Data Protection**: GDPR and similar privacy laws
