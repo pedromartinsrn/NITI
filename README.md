@@ -469,48 +469,6 @@ mm_reward = spread_capture + liquidity_mining_rewards + fee_rebates
 
 ---
 
-## 10. Performance Analysis
-
-### 10.1 Scalability Metrics
-
-**Throughput:**
-- **Theoretical**: 10,000 TPS (transactions per second)
-- **Practical**: 1,000 TPS with current hardware
-- **Bottlenecks**: Cryptographic operations and network latency
-
-**Latency:**
-- **Order Matching**: < 100ms
-- **Settlement**: < 1 second
-- **Oracle Updates**: < 10 seconds
-
-### 10.2 Resource Requirements
-
-**Computational Complexity:**
-- **Contract Creation**: O(n log n) where n is number of oracles
-- **Settlement**: O(1) per transaction
-- **Oracle Aggregation**: O(n) where n is number of oracles
-
-**Storage Requirements:**
-- **Contract State**: ~1KB per active contract
-- **Oracle Data**: ~100 bytes per data point
-- **Transaction History**: ~500 bytes per transaction
-
-### 10.3 Network Analysis
-
-**Bandwidth Usage:**
-```
-bandwidth_per_node = message_size × message_frequency × peer_count
-```
-
-**Latency Analysis:**
-```
-total_latency = network_latency + processing_latency + consensus_latency
-```
-
----
-
-## 11. Compliance and Regulatory Considerations
-
 ### 11.1 Regulatory Framework
 
 **Key Principles:**
