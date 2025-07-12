@@ -10,7 +10,7 @@
 
 ## Abstract
 
-NITI presents a cryptographically secure and economically sound protocol for creating synthetic derivatives on Bitcoin through the Lightning Network. Using mathematically proven Cascading Discreet Log Contracts (CDLCs) with enhanced security properties, participants can create diverse financial instruments including stablecoins, futures, options, and loans while maintaining non-custodial control. This protocol implements a modernized version of Hayek's competing currencies framework with rigorous mathematical foundations, comprehensive risk management, and formal security guarantees.
+NITI presents a cryptographically secure and economically sound protocol for creating synthetic derivatives on Bitcoin through the Lightning Network. Using Cascading Discreet Log Contracts (CDLCs) with enhanced security properties, participants can create diverse financial instruments including stablecoins, futures, options, and loans while maintaining non-custodial control. This protocol implements a modernized version of Hayek's competing currencies framework with rigorous mathematical foundations, comprehensive risk management, and formal security guarantees.
 
 **Keywords:** Bitcoin, Lightning Network, Discreet Log Contracts, Synthetic Assets, Competing Currencies, Cryptographic Protocols
 
@@ -89,7 +89,7 @@ The currency competition game G consists of:
 
 ## 3. Cryptographic Architecture
 
-### 3.1 Enhanced Discreet Log Contracts
+### 3.1 Discreet Log Contracts
 
 **Definition 3.1** (Secure DLC)
 A Secure DLC is a tuple (Setup, Commit, Reveal, Settle) where:
@@ -125,7 +125,7 @@ Settle(pp, σ̃₁, σ̃₂, σ_O, outcome) → (σ₁, σ₂)
 
 ### 3.2 Cascading Discreet Log Contracts (CDLCs)
 
-**Definition 3.2** (Secure CDLC)
+**Definition 3.2** (CDLC)
 A Cascading DLC extends the basic DLC with:
 
 **Cascade Function:**
@@ -173,7 +173,7 @@ outcome = argmax_x ∑(i: O_i votes x) w_i·r_i
 
 ## 4. Risk Management and Portfolio Theory
 
-### 4.1 Advanced Value-at-Risk Model
+### 4.1 Value-at-Risk Model
 
 **Definition 4.1** (Dynamic VaR Model)
 For a portfolio P with synthetic assets S₁, S₂, ..., Sₙ:
