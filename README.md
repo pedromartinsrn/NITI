@@ -1,9 +1,9 @@
 NITI: Non-custodial Interlinked Tokenization Infrastructure  
 A Protocol for Bitcoin-Backed Synthetic Assets  
-WHITEPAPER 1.0  
+WHITEPAPER 0.6  
 Publication Date: July 14, 2025  
-Authors: Pedro Martins Rodrigues Novaes, Dr. Caleb Isaac  
-Contact: nitidev@proton.me, contact@niti.finance  
+Authors: Pedro Martins Rodrigues Novaes 
+Contact: nitidev@proton.me
 
 Abstract  
 NITI presents a cryptographically secure and economically sound protocol for creating synthetic derivatives on Bitcoin through the Lightning Network. Using Cascading Discreet Log Contracts (CDLCs) with enhanced security properties, participants can create diverse financial instruments including stablecoins, futures, options, and loans while maintaining non-custodial control. This protocol implements a modernized version of Hayek's competing currencies framework with rigorous mathematical foundations, comprehensive risk management, and formal security guarantees. NITI's mission is to implement the free monetary system proposed by Hayek using bitcoin as the sole backing, enabling synthetics that act as private currencies in free competition, backed by layered monetary structures on Bitcoin.
